@@ -1,9 +1,14 @@
 body,div{
 padding:10px;
-font-family: "Lucida Console", Monaco, monospace;
-font-color:#323131;
-}
 
+font-family: "Lucida Console", Monaco, monospace;
+font-size:100%;
+color:#323131;
+line-height: 1.2;
+}
+div{
+margin:5px;
+}
 body{
 background-color:#feeae2;
 }
@@ -16,22 +21,25 @@ img{
 width:50px;
 height:50px;
 }
-
+p{
+padding:7px;
+}
 .container-fluid{
 background-color:#c2a7a1;
-margin:0px;
+padding:10px;
+padding-bottom:15px;
 }
-
-
+ol{
+	list-style-type: decimal;
+}
+li{
+margin-left:40px;
+margin-top:10px;
+}
 h3{
-font-color:darkslategray;
-}
-
-div[class^="content_"]{
-background-color:burlywood;
-padding:0%;
-margin:0%;
-float:left;
-min-height:50px;
+margin-top:20px;
+margin-bottom:15px;
+margin-left:5px;
+font-size:1.6em;
 }
 
