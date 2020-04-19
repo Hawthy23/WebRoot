@@ -1,8 +1,15 @@
 body,div{
-background-color:aliceblue;
 padding:10px;
 font-family: "Lucida Console", Monaco, monospace;
+font-color:#323131;
+}
 
+body{
+background-color:#feeae2;
+}
+
+a{
+color:#2f6061;
 }
 
 img{
@@ -11,7 +18,7 @@ height:50px;
 }
 
 .container-fluid{
-background-color:bisque;
+background-color:#c2a7a1;
 margin:0px;
 }
 
