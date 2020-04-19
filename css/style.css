@@ -1,17 +1,18 @@
 body,div{
-padding:10px;
-
 font-family: "Lucida Console", Monaco, monospace;
 font-size:100%;
 color:#323131;
 line-height: 1.2;
 }
 div{
-margin:5px;
+padding:10px; /*padding's fine cause that's inner stuff*/
+/*margin:5px; margins in the divs also mess with the colums cause of width capabilities i'd guess???*/
 }
 body{
 background-color:#feeae2;
+/*I want to put padding here, but it messes with the grid collums in some way. more research for later?*/
 }
+
 
 a{
 color:#2f6061;
